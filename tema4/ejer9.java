@@ -18,6 +18,12 @@ public class ejer9 {
 		System.out.print("Introduzca valor de c: ");
 		c = Double.parseDouble(System.console().readLine());
 		
+    if (a==0) {
+      aux = -c/b;
+      System.out.printf("Ecuacion de primer grado, solucion: %f\n", aux);
+      System.exit(0);
+    }
+    
 		raiz = Math.sqrt( (b*b)-(4*a*c) );		//devuelve valor double
 		aux = -b/(2*a);
 		sol1 = (-b+raiz)/(2*a);					//usar parentesis
