@@ -4,19 +4,16 @@
 * 
 */
 
-import java.util.Scanner;
-
-public class ejer26 {
+public class Ejer26 {
   public static void main(String[] args) {
     int cantidad;
     float precioInd=8f, precioPar=11f, total;
     String dia, tieneTarjeta;
-    Scanner s = new Scanner(System.in);
     float descuento, apagar;
 
     System.out.println("Venta de entradas CineCampa");
     System.out.print("Numero de entradas: ");
-    cantidad = s.nextInt();
+    cantidad = Integer.parseInt(System.console().readLine());
     System.out.print("Dia de la semana: ");
     dia = System.console().readLine();
     System.out.print("Tiene tarjeta CineCampa? (s/n): ");
