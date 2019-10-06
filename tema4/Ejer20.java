@@ -4,7 +4,7 @@
 *
 */
 
-public class ejer20 {
+public class Ejer20 {
   public static void main(String[] args) {
     int n, nprimero, nultimo, n1, n2;
     boolean isCapicua=false;
@@ -16,43 +16,43 @@ public class ejer20 {
       isCapicua=true;
     } 
 
-    else if (n>=10 && n<100) {
+    if (n>=10 && n<100) {
       nultimo = n%10;
       nprimero = n/10;
       if (nprimero == nultimo)
         isCapicua=true;
     } 
     
-    else if (n>=100 && n<1000) {
+    if (n>=100 && n<1000) {
       nultimo = n%10;
       nprimero = n/100;
       if (nprimero == nultimo)
         isCapicua=true;
     } 
     
-    else if (n>=1000 && n<10000) {
+    if (n>=1000 && n<10000) {
       nultimo = n%10;
       nprimero = n/1000;
       
       n1 = n%100; 
-      n1=n1/10;
+      n1 = n1/10;
       
       n2 = n/100; 
-      n2=n2%10;
+      n2 = n2%10;
       
       if (nprimero==nultimo && n1==n2)
         isCapicua=true;
     } 
     
-    else if (n>=10000 && n<100000) {
+    if (n>=10000 && n<100000) {
       nultimo = n%10;
       nprimero = n/10000;
       
       n1 = n%100; 
-      n1=n1/10;
+      n1 = n1/10;
       
       n2 = n/1000; 
-      n2=n2%10;
+      n2 = n2%10;
       
       if (nprimero==nultimo && n1==n2)
         isCapicua=true;
