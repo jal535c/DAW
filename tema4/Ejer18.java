@@ -13,13 +13,13 @@ public class Ejer18 {
 
     if (n<10) {
       primera = n;
-    } else if (n>=10 && n<100) {
+    } else if (n<100) {
       primera = n/10;
-    } else if (n>=100 && n<1000) {
+    } else if (n<1000) {
       primera = n/100;
-    } else if (n>=1000 && n<10000) {
+    } else if (n<10000) {
       primera = n/1000;
-    } else if (n>=10000 && n<100000) {
+    } else if (n<100000) {
       primera = n/10000;
     }
   
