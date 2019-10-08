@@ -26,11 +26,11 @@ public class Ejer08 {
 
     if (media<5) {
       boletin = "Insuficiente";
-    } else if (media>=5 && media<6) {
+    } else if (media<6) {
       boletin = "Suficiente";
-    } else if (media>=6 && media<7) {
+    } else if (media<7) {
       boletin = "Bien";
-    } else if (media>=7 && media<9) {
+    } else if (media<9) {
       boletin = "Notable";
     } else if (media>=9) {
       boletin = "Sobresaliente";
