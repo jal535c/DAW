@@ -19,9 +19,14 @@ public class Ejer09 {
     c = Double.parseDouble(System.console().readLine());
     
     if (a==0) {
-      aux = -c/b;
-      System.out.printf("Ecuacion de primer grado, solucion: %f\n", aux);
-      System.exit(0);
+      if (b!=0) {
+        aux = -c/b;
+        System.out.printf("Ecuacion de primer grado, solucion: %f\n", aux);
+        System.exit(0);
+      } else {
+        System.out.printf("No es ecuacion\n");
+        System.exit(0);
+      }
     }
     
     raiz = Math.sqrt( (b*b)-(4*a*c) );  //sqrt devuelve valor double
