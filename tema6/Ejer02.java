@@ -48,6 +48,7 @@ public class Ejer02 {
         break;
       case 11:
         carta = "J";
+        break;
       case 12:
         carta = "Q";
         break;
