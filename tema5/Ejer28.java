@@ -1,6 +1,6 @@
 /*
 *
-* Ejercicio 28: Calcula el factorial
+* Ejercicio 28: Calcula el factorial de un numero
 *
 */
 
@@ -11,8 +11,8 @@ public class Ejer28 {
     
     System.out.print("Introduzca un numero entero: ");
     num = Integer.parseInt(System.console().readLine());
+    
     aux = num;
-
     while (num >= 1) {
       fact *= num;
       num--;
