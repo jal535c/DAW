@@ -14,24 +14,23 @@ public class Ejer12 {
 
     if (n==0) {
       System.out.printf("%d\n", n);
-      System.exit(0);
-    }
-
-    if (n==1) {
+      
+    } else if (n==1) {
       System.out.printf("%d, %d\n", 0, 1);
-      System.exit(0);
-    }
+        
+    } else { 
 
-    s1 = 0;
-    s2 = 1;
-    System.out.print(s1 + ", " + s2 + ", ");
+      s1 = 0;
+      s2 = 1;
+      System.out.print(s1 + ", " + s2 + ", ");
 
-    for (int i=2; i<n; i++) {
-      s3 = s2+s1;
-      System.out.print(s3 + ", ");
+      for (int i=2; i<n; i++) {
+        s3 = s2+s1;
+        System.out.print(s3 + ", ");
     
-      s1 = s2;    //actualiza valores para siguiente iteracion
-      s2 = s3;
+        s1 = s2;    //actualiza valores para siguiente iteracion
+        s2 = s3;
+      }
     }
     
     System.out.printf("\n");
