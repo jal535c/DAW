@@ -6,20 +6,20 @@
 
 public class Ejer22 {
   public static void main(String[] args) {
-    boolean primo;
+    boolean esPrimo;
 
     System.out.println("Numeros primos del 2 al 100:");
 
     for (int n=2; n<=100; n++) {
       
-      primo = true;
-      for (int i=2; i<n; i++) {
+      esPrimo = true;
+      for (int i=2; i<n && esPrimo==true; i++) {
         if (n%i == 0) {
-          primo = false;
+          esPrimo = false;
         }
       }   
 
-      if (primo == true) {
+      if (esPrimo == true) {
         System.out.printf("%d ", n);
       }
          
