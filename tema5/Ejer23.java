@@ -1,6 +1,6 @@
 /*
 *
-* Ejercicio 23: Introducir numeros hasta superar 10000
+* Ejercicio 23: Introducir numeros mientras su suma no supere 10000
 *
 */
 
@@ -21,6 +21,7 @@ public class Ejer23 {
 
     suma -= n;      //quitar el ultimo introducido
     i--;
+    
     media = (double)suma/i;
     System.out.printf("Total acumulado: %d\n", suma);
     System.out.printf("Contador numeros: %d\n", i);
