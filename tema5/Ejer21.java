@@ -23,8 +23,7 @@ public class Ejer21 {
       if (n%2!=0) {
         suma += n;
         i++;
-      }
-      else {
+      } else {
         if (n>mayor) {
           mayor = n;
         }
