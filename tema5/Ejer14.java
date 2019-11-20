@@ -1,6 +1,6 @@
 /*
 * 
-* Ejercicio 14: Calculo de potencias
+* Ejercicio 14: Calcula la potencia
 * 
 */
 
@@ -16,8 +16,9 @@ public class Ejer14 {
     System.out.print("Introduzca exponente: ");
     exp = Integer.parseInt(System.console().readLine());
     
-    resul = base;
-    for (int i=1; i<exp; i++) {
+    //resul = base;   //i empieza en 1
+    resul = 1;
+    for (int i=0; i<exp; i++) {
       resul = resul*base;
     }
     
