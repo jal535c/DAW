@@ -1,6 +1,6 @@
 /*
 *
-* Ejercicio 10: Calcula media de numeros, para detener introducir numero negativo
+* Ejercicio 10: Calcula media de numeros (introducir numero negativo para detener)
 *
 */
 
