@@ -25,13 +25,8 @@ public class Ejer07 {
     for (int i=0; i<100; i++) {
       if (arr[i]==n1) {
         arr[i]=n2;
-      }
-    }
-
-    for (int i=0; i<100; i++) {
-      if (arr[i]==n2) {
         System.out.print("\""+arr[i] + "\""+" ");
-      } else { 
+      } else {
         System.out.print(arr[i] + " ");
       }
     }
