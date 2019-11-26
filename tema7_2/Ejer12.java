@@ -17,7 +17,7 @@ public class Ejer12 {
       for (int j=0; j<9; j++) {
         arr[i][j] = (int)(Math.random()*401)+500;
         if (i+j==8) {
-          aux[i]=arr[i][j];     //diagonal
+          aux[j]=arr[i][j];     //diagonal inversa, empieza en esquina inferior izquierda
 
           suma+=aux[i];         //suma acumulada
           
