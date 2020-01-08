@@ -20,8 +20,8 @@ public class Ejer06 {
         do {                              //repite random mientras sea repetido
           repe=false;             
           num = (int)(Math.random()*1001);
-          for (int z=i; z>0; z--) {       //recorre lo que tenia para saber si es repetido
-            for (int k=j; k>0; k--) {
+          for (int z=i-1; z>=0; z--) {       //recorre lo que tenia para saber si es repetido
+            for (int k=j-1; k>=0; k--) {
               if (num==arr[z][k]) {
                 repe=true;
               }
