@@ -1,0 +1,32 @@
+root {
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bcdeff;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: #242424 2px 2px 1px;
+}
+
+table {
+  background-color: #abcdef;
+  margin: auto;
+  padding: 20px;
+  box-shadow: #242424 4px 4px 4px;
+  text-align: right;
+  border: 0px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
