@@ -1,0 +1,23 @@
+root {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  /*text-shadow: #242424 2px 2px 1px;*/
+}
+
+#principal {
+  background-color: #abcdef;
+  width: 600px;
+  margin: auto;
+  padding: 40px;
+  box-shadow: #242424 4px 4px 4px;
+  border-radius: 6px;
+  text-align: justify;
+}
+
+.rojo {
+  color: red;
+}
