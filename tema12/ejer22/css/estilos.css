@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+.fotos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+button {
+  text-align: center;
+}
+
+.salida {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
