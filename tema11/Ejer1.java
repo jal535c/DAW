@@ -10,7 +10,6 @@ public class Ejer1 {
 			BufferedWriter bw = new BufferedWriter(new FileWriter("primos.dat"));
 
 			for (int i=2; i<500; i++) {
-				
 				primo=true;
 				for (int j=2; j<i && primo==true; j++) {
 					if (i%j==0) {
@@ -21,8 +20,8 @@ public class Ejer1 {
 				if (primo==true) {
 					bw.write(i+" ");
 				}
-
 			}
+			
 			bw.close();
 		} catch (IOException ioe) {
 			System.out.println("error");
